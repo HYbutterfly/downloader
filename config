@@ -1,0 +1,7 @@
+service_path = "service/?.lua;ltask/service/?.lua"
+lua_path = "?.lua;lualib/?.lua"
+lua_cpath = "?.dll;luaclib/?.dll"
+bootstrap = { "bootstrap" }
+logger = { "logger" }
+exclusive = { "timer" }
+debuglog = "log.txt"
